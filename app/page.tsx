@@ -160,10 +160,10 @@ export default function Home() {
               </p>
 
               <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-                <a href="#events" className="inline-flex items-center justify-center gap-3 rounded-full bg-[#F35B15] px-7 py-4 font-black uppercase tracking-wide text-white shadow-xl shadow-[#F35B15]/20">
+                <a href="/events" className="inline-flex items-center justify-center gap-3 rounded-full bg-[#F35B15] px-7 py-4 font-black uppercase tracking-wide text-white shadow-xl shadow-[#F35B15]/20">
                   View featured events <ArrowRight size={18} />
                 </a>
-                <a href="#contact" className="inline-flex items-center justify-center rounded-full border border-[#383232]/20 bg-white px-7 py-4 font-bold shadow-sm hover:bg-[#383232] hover:text-white">
+                <a href="/contact" className="inline-flex items-center justify-center rounded-full border border-[#383232]/20 bg-white px-7 py-4 font-bold shadow-sm hover:bg-[#383232] hover:text-white">
                   Start planning
                 </a>
               </div>
