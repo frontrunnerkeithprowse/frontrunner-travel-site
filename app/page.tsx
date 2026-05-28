@@ -363,18 +363,21 @@ export default function Home() {
               </p>
 
               <div className="mt-6 grid grid-cols-2 gap-3">
-                <div className="rounded-xl border border-[#383232]/10 bg-[#F9F4EE] p-4 text-center font-black">
-                  ATOL
-                </div>
+  <a
+    href="https://www.atol.org"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="rounded-xl border border-[#383232]/10 bg-[#F9F4EE] p-4 text-center font-black transition hover:bg-[#F35B15] hover:text-white"
+  >
+    ATOL
+  </a>
 
-                <div className="rounded-xl border border-[#383232]/10 bg-[#F9F4EE] p-4 text-center font-black">
-                  ABTOT
-                </div>
-              </div>
-            </aside>
-          </div>
-        </section>
-      </main>
-    </div>
-  );
-}
+  <a
+    href="https://www.abtot.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="rounded-xl border border-[#383232]/10 bg-[#F9F4EE] p-4 text-center font-black transition hover:bg-[#F35B15] hover:text-white"
+  >
+    ABTOT
+  </a>
+</div>
