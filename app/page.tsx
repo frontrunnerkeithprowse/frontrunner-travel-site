@@ -9,8 +9,7 @@ const events = [
     href: "/events/australian-open",
     category: "Tennis",
     location: "Melbourne",
-    image:
-      "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1200&q=80",
+    image: "/australian-open.png",
     text: "Grand Slam tennis, premium hotels and Centre Court atmosphere.",
   },
   {
@@ -18,8 +17,7 @@ const events = [
     href: "/events/australian-grand-prix",
     category: "Formula 1",
     location: "Melbourne",
-    image:
-      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80",
+    image: "/ausgp.webp",
     text: "Race weekend travel with hospitality and the thrill of lights out.",
   },
   {
@@ -27,8 +25,7 @@ const events = [
     href: "/events/monaco-grand-prix",
     category: "Formula 1",
     location: "Monaco",
-    image:
-      "https://images.unsplash.com/photo-1592853625511-ad0edcc69c07?auto=format&fit=crop&w=1200&q=80",
+    image: "/monaco4.jpg",
     text: "One of the most iconic weekends in motorsport.",
   },
   {
@@ -59,11 +56,10 @@ export default function Home() {
       <section className="relative flex min-h-screen items-center overflow-hidden pt-28">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1519766304817-4f37bda74a26?auto=format&fit=crop&w=1800&q=80"
-            alt="Sports crowd"
+            src="/australian-open.png"
+            alt="Australian Open tennis"
             className="h-full w-full object-cover opacity-25 grayscale"
           />
-
           <div className="absolute inset-0 bg-gradient-to-r from-[#F9F4EE] via-[#F9F4EE]/88 to-[#F9F4EE]/30" />
         </div>
 
@@ -112,13 +108,13 @@ export default function Home() {
           <div className="hidden lg:block">
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1200&q=80"
+                src="/australian-open.png"
                 alt="Tennis Open"
                 className="h-72 rounded-[2rem] object-cover shadow-xl"
               />
 
               <img
-                src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
+                src="/ausgp.webp"
                 alt="Grand Prix"
                 className="mt-14 h-72 rounded-[2rem] object-cover shadow-xl"
               />
