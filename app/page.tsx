@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import {
   ArrowRight,
   Mail,
-  ShieldCheck,
+ ShieldCheck,
   Trophy,
   MapPin,
   Sparkles,
@@ -363,21 +363,28 @@ export default function Home() {
               </p>
 
               <div className="mt-6 grid grid-cols-2 gap-3">
-  <a
-    href="https://www.atol.org"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="rounded-xl border border-[#383232]/10 bg-[#F9F4EE] p-4 text-center font-black transition hover:bg-[#F35B15] hover:text-white"
-  >
-    ATOL
-  </a>
+                <a
+                  href="https://www.atol.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-xl border border-[#383232]/10 bg-[#F9F4EE] p-4 text-center font-black transition hover:bg-[#F35B15] hover:text-white"
+                >
+                  ATOL
+                </a>
 
-  <a
-    href="https://www.abtot.com"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="rounded-xl border border-[#383232]/10 bg-[#F9F4EE] p-4 text-center font-black transition hover:bg-[#F35B15] hover:text-white"
-  >
-    ABTOT
-  </a>
-</div>
+                <a
+                  href="https://www.abtot.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-xl border border-[#383232]/10 bg-[#F9F4EE] p-4 text-center font-black transition hover:bg-[#F35B15] hover:text-white"
+                >
+                  ABTOT
+                </a>
+              </div>
+            </aside>
+          </div>
+        </section>
+      </main>
+    </div>
+  );
+}
