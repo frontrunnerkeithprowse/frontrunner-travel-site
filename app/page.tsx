@@ -1,12 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  ArrowRight,
-  Sparkles,
-  MapPin,
-  Clock,
-} from "lucide-react";
+import { ArrowRight, Sparkles, MapPin, Clock } from "lucide-react";
 
 const events = [
   {
@@ -15,7 +10,7 @@ const events = [
     category: "Tennis",
     location: "Melbourne",
     image:
-      "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1200&q=80",
     text: "Grand Slam tennis, premium hotels and Centre Court atmosphere.",
   },
   {
@@ -24,7 +19,7 @@ const events = [
     category: "Formula 1",
     location: "Melbourne",
     image:
-      "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80",
     text: "Race weekend travel with hospitality and the thrill of lights out.",
   },
   {
@@ -33,7 +28,7 @@ const events = [
     category: "Formula 1",
     location: "Monaco",
     image:
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1592853625511-ad0edcc69c07?auto=format&fit=crop&w=1200&q=80",
     text: "One of the most iconic weekends in motorsport.",
   },
   {
@@ -117,14 +112,14 @@ export default function Home() {
           <div className="hidden lg:block">
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=800&q=80"
-                alt=""
+                src="https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1200&q=80"
+                alt="Tennis Open"
                 className="h-72 rounded-[2rem] object-cover shadow-xl"
               />
 
               <img
-                src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=800&q=80"
-                alt=""
+                src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
+                alt="Grand Prix"
                 className="mt-14 h-72 rounded-[2rem] object-cover shadow-xl"
               />
 
@@ -135,7 +130,7 @@ export default function Home() {
 
                 <div
                   style={headingFont}
-                  className="mt-10 grid grid-cols-3 gap-6 text-4xl font-semibold leading-none"
+                  className="mt-10 grid grid-cols-3 gap-10 text-center text-4xl font-semibold leading-none"
                 >
                   <p>The roar.</p>
                   <p>The rumble.</p>
@@ -158,7 +153,7 @@ export default function Home() {
               style={headingFont}
               className="mt-4 max-w-3xl text-5xl font-semibold leading-[1] tracking-[-0.03em]"
             >
-              Four iconic events. One expert way in.
+              Legendary events. Curated, never templated.
             </h2>
           </div>
 
@@ -189,10 +184,7 @@ export default function Home() {
                 </div>
 
                 <div className="absolute bottom-5 left-5 right-5 text-white">
-                  <h3
-                    style={headingFont}
-                    className="text-3xl font-semibold"
-                  >
+                  <h3 style={headingFont} className="text-3xl font-semibold">
                     {event.title}
                   </h3>
 
