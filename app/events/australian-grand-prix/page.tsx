@@ -1,6 +1,6 @@
 export default function AustralianGrandPrixPage() {
   const headingFont = {
-    fontFamily: '"Playfair Display", Georgia, serif',
+    fontFamily: '"Begum Medium", Georgia, serif',
   };
 
   const inclusions = [
@@ -13,19 +13,19 @@ export default function AustralianGrandPrixPage() {
   ];
 
   return (
-    <main className="min-h-screen bg-[#F9F4EE] text-[#383232]">
+    <main className="min-h-screen bg-[#F9F4EE] text-[#0C2340]">
       <section className="relative h-[75vh] overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1800&q=80"
-          alt="Australian Grand Prix"
+          src="/ausgp.webp"
+          alt="Australian Grand Prix racing"
           className="h-full w-full object-cover"
         />
 
-        <div className="absolute inset-0 bg-black/45" />
+        <div className="absolute inset-0 bg-[#0C2340]/55" />
 
         <div className="absolute inset-0 flex items-center">
           <div className="mx-auto max-w-7xl px-6 text-white">
-            <p className="mb-4 text-sm uppercase tracking-[0.35em] text-[#F35B15]">
+            <p className="mb-4 text-sm font-bold uppercase tracking-[0.35em] text-[#FF9016]">
               Australian Grand Prix
             </p>
 
@@ -44,14 +44,14 @@ export default function AustralianGrandPrixPage() {
             <div className="mt-10 flex flex-wrap gap-4">
               <a
                 href="/contact"
-                className="rounded-full bg-[#F35B15] px-8 py-4 text-sm font-bold uppercase tracking-[0.2em] text-white transition hover:bg-[#d94d0f]"
+                className="rounded-full bg-[#FF9016] px-8 py-4 text-sm font-bold uppercase tracking-[0.2em] text-[#0C2340] transition hover:bg-[#0C2340] hover:text-white"
               >
                 Register Interest
               </a>
 
               <a
                 href="/events"
-                className="rounded-full border border-white/50 px-8 py-4 text-sm font-bold uppercase tracking-[0.2em] text-white transition hover:bg-white hover:text-[#383232]"
+                className="rounded-full border border-white/50 px-8 py-4 text-sm font-bold uppercase tracking-[0.2em] text-white transition hover:bg-white hover:text-[#0C2340]"
               >
                 View All Events
               </a>
@@ -62,7 +62,7 @@ export default function AustralianGrandPrixPage() {
 
       <section className="mx-auto grid max-w-7xl gap-16 px-6 py-24 md:grid-cols-2">
         <div>
-          <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-[#F35B15]">
+          <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-[#FF9016]">
             Event Overview
           </p>
 
@@ -73,35 +73,35 @@ export default function AustralianGrandPrixPage() {
             More than a race weekend.
           </h2>
 
-          <p className="mt-8 text-lg leading-8 text-[#383232]/80">
+          <p className="mt-8 text-lg leading-8 text-[#0C2340]/80">
             The Australian Grand Prix brings Formula 1 atmosphere into the heart
             of Melbourne, combining speed, spectacle and city energy across an
             unforgettable race weekend.
           </p>
 
-          <p className="mt-6 text-lg leading-8 text-[#383232]/80">
+          <p className="mt-6 text-lg leading-8 text-[#0C2340]/80">
             Frontrunner Travel creates complete premium experiences around the
             race — bringing together tickets, hospitality, accommodation,
             transfers and local recommendations into one seamless package.
           </p>
 
-          <p className="mt-6 text-lg leading-8 text-[#383232]/80">
+          <p className="mt-6 text-lg leading-8 text-[#0C2340]/80">
             Whether clients want grandstand action, elevated hospitality or a
             full Melbourne city escape around the race, each itinerary is shaped
             around access, atmosphere and ease.
           </p>
         </div>
 
-        <div className="rounded-[32px] bg-white p-10 shadow-xl">
-          <p className="mb-8 text-sm font-bold uppercase tracking-[0.25em] text-[#F35B15]">
+        <div className="rounded-[32px] border border-[#C0C0C8]/40 bg-white p-10 shadow-xl">
+          <p className="mb-8 text-sm font-bold uppercase tracking-[0.25em] text-[#FF9016]">
             Package Inclusions
           </p>
 
           <div className="space-y-5">
             {inclusions.map((item) => (
               <div key={item} className="flex items-start gap-4">
-                <div className="mt-2 h-3 w-3 rounded-full bg-[#F35B15]" />
-                <p className="text-lg text-[#383232]/80">{item}</p>
+                <div className="mt-2 h-3 w-3 rounded-full bg-[#FF9016]" />
+                <p className="text-lg text-[#0C2340]/80">{item}</p>
               </div>
             ))}
           </div>
@@ -111,22 +111,22 @@ export default function AustralianGrandPrixPage() {
       <section className="mx-auto max-w-7xl px-6 pb-24">
         <div className="grid gap-8 md:grid-cols-2">
           <img
-            src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1?auto=format&fit=crop&w=1200&q=80"
-            alt="Formula 1 race car"
+            src="/ausgp.webp"
+            alt="Australian Grand Prix race car"
             className="h-[420px] w-full rounded-[32px] object-cover"
           />
 
           <img
-            src="https://images.unsplash.com/photo-1533107862482-0e6974b06ec4?auto=format&fit=crop&w=1200&q=80"
-            alt="Sporting event crowd"
+            src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
+            alt="Formula 1 racing detail"
             className="h-[420px] w-full rounded-[32px] object-cover"
           />
         </div>
       </section>
 
-      <section className="bg-[#383232] py-24 text-white">
+      <section className="bg-[#0C2340] py-24 text-white">
         <div className="mx-auto max-w-4xl px-6 text-center">
-          <p className="mb-4 text-sm uppercase tracking-[0.35em] text-[#F35B15]">
+          <p className="mb-4 text-sm font-bold uppercase tracking-[0.35em] text-[#FF9016]">
             Frontrunner Travel
           </p>
 
@@ -144,7 +144,7 @@ export default function AustralianGrandPrixPage() {
 
           <a
             href="/contact"
-            className="mt-10 inline-block rounded-full bg-[#F35B15] px-10 py-5 text-sm font-bold uppercase tracking-[0.25em] text-white transition hover:bg-[#d94d0f]"
+            className="mt-10 inline-block rounded-full bg-[#FF9016] px-10 py-5 text-sm font-bold uppercase tracking-[0.25em] text-[#0C2340] transition hover:bg-white"
           >
             Enquire Now
           </a>
