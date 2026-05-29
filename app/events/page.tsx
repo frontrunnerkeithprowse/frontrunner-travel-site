@@ -4,26 +4,23 @@ const events = [
     href: "/events/australian-open",
     category: "Tennis",
     location: "Melbourne",
-    image:
-      "https://images.unsplash.com/photo-1542144582-1ba00456b5e3?auto=format&fit=crop&w=1200&q=80",
-    text: "Grand Slam tennis, Melbourne energy, premium hotels and curated event access.",
+    image: "/australian-open.png",
+    text: "Grand Slam tennis, premium hotels and Centre Court atmosphere.",
   },
   {
     title: "Australian Grand Prix",
     href: "/events/australian-grand-prix",
     category: "Formula 1",
     location: "Melbourne",
-    image:
-      "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1200&q=80",
-    text: "Race weekend travel with hospitality, transfers, hotels and the thrill of lights out.",
+    image: "/ausgp.webp",
+    text: "Race weekend travel with hospitality and the thrill of lights out.",
   },
   {
     title: "Monaco Grand Prix",
     href: "/events/monaco-grand-prix",
     category: "Formula 1",
     location: "Monaco",
-    image:
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    image: "/monaco4.jpg",
     text: "One of the most iconic weekends in motorsport, built around rare access and atmosphere.",
   },
   {
@@ -39,24 +36,24 @@ const events = [
 
 export default function EventsPage() {
   const headingFont = {
-    fontFamily: '"Playfair Display", Georgia, serif',
+    fontFamily: '"Begum Medium", Georgia, serif',
   };
 
   return (
-    <main className="min-h-screen bg-[#F9F4EE] px-6 py-24 text-[#383232]">
+    <main className="min-h-screen bg-[#F9F4EE] px-6 py-28 text-[#0C2340]">
       <section className="mx-auto max-w-7xl">
-        <p className="text-sm font-black uppercase tracking-[0.35em] text-[#F35B15]">
+        <p className="text-sm font-bold uppercase tracking-[0.35em] text-[#FF9016]">
           Events
         </p>
 
         <h1
           style={headingFont}
-          className="mt-4 max-w-4xl text-6xl font-semibold leading-[0.95] tracking-[-0.04em]"
+          className="mt-4 max-w-5xl text-6xl font-semibold leading-[0.95] tracking-[-0.04em]"
         >
-          Global sporting events worth travelling for.
+          Legendary events. Curated, never templated.
         </h1>
 
-        <p className="mt-6 max-w-2xl text-xl leading-8 text-[#383232]/70">
+        <p className="mt-6 max-w-2xl text-xl leading-8 text-[#0C2340]/70">
           Explore Frontrunner Travel’s launch collection of premium sports travel
           experiences, each built around access, atmosphere and intelligent
           planning.
@@ -67,7 +64,7 @@ export default function EventsPage() {
             <a
               key={event.title}
               href={event.href}
-              className="group flex h-full flex-col overflow-hidden rounded-[1.75rem] border border-[#383232]/10 bg-white shadow-sm transition hover:-translate-y-2 hover:shadow-2xl"
+              className="group flex h-full flex-col overflow-hidden rounded-[1.75rem] border border-[#C0C0C8]/50 bg-white shadow-sm transition hover:-translate-y-2 hover:shadow-2xl"
             >
               <div className="relative h-80 overflow-hidden">
                 <img
@@ -76,9 +73,9 @@ export default function EventsPage() {
                   className="h-full w-full object-cover transition duration-700 group-hover:scale-110"
                 />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-[#383232]/88 via-[#383232]/25 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0C2340]/90 via-[#0C2340]/25 to-transparent" />
 
-                <div className="absolute left-5 top-5 rounded-full bg-[#F35B15] px-3 py-1 text-xs font-black uppercase text-white">
+                <div className="absolute left-5 top-5 rounded-full bg-[#FF9016] px-3 py-1 text-xs font-bold uppercase text-[#0C2340]">
                   {event.category}
                 </div>
 
@@ -94,9 +91,9 @@ export default function EventsPage() {
               </div>
 
               <div className="flex flex-1 flex-col p-5">
-                <p className="text-[#383232]/68">{event.text}</p>
+                <p className="text-[#0C2340]/68">{event.text}</p>
 
-                <span className="mt-auto pt-8 font-black uppercase tracking-wide text-[#F35B15]">
+                <span className="mt-auto pt-8 font-bold uppercase tracking-wide text-[#FF9016]">
                   View event →
                 </span>
               </div>
