@@ -18,8 +18,8 @@ export default function RootLayout({
             <a href="/" className="flex items-center gap-3">
               <img
   src="/frontrunnerlogo.png"
-  alt="Frontrunner Travel"
-  className="h-16 w-auto"
+  alt=""
+  className="h-24 w-auto"
 />
             </a>
 
