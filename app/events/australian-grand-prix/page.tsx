@@ -16,7 +16,7 @@ export default function AustralianGrandPrixPage() {
     <main className="min-h-screen bg-[#F9F4EE] text-[#0C2340]">
       <section className="relative h-[75vh] overflow-hidden">
         <img
-          src="/ausgp.webp"
+          src="/images/australian-grand-prix/heroagp.jpg"
           alt="Australian Grand Prix racing"
           className="h-full w-full object-cover"
         />
