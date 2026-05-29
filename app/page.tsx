@@ -52,7 +52,7 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-[#F9F4EE] text-[#383232]">
+    <main className="min-h-screen bg-[#F9F4EE] text-[#0C2340]">
       <section className="relative flex min-h-screen items-center overflow-hidden pt-28">
         <div className="absolute inset-0">
           <img
@@ -69,7 +69,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-[#383232]/10 bg-white/80 px-4 py-2 text-sm font-bold uppercase tracking-[0.2em] text-[#F35B15] shadow-sm">
+            <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-[#0C2340]/10 bg-white/80 px-4 py-2 text-sm font-bold uppercase tracking-[0.2em] text-[#F35B15] shadow-sm">
               <Sparkles size={16} />
               Premium Global Sports Travel
             </p>
@@ -79,10 +79,10 @@ export default function Home() {
               className="max-w-5xl text-6xl font-semibold leading-[0.9] tracking-[-0.04em] sm:text-7xl lg:text-8xl"
             >
               There is nothing like being{" "}
-              <span className="text-[#F35B15]">there.</span>
+              <span className="text-[#FF9016]">there.</span>
             </h1>
 
-            <p className="mt-8 max-w-2xl text-xl leading-8 text-[#383232]/75">
+            <p className="mt-8 max-w-2xl text-xl leading-8 text-[#0C2340]/75">
               Frontrunner Travel creates premium sporting travel experiences
               built around atmosphere, access and unforgettable weekends.
             </p>
@@ -90,7 +90,7 @@ export default function Home() {
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a
                 href="/events"
-                className="inline-flex items-center justify-center gap-3 rounded-full bg-[#F35B15] px-7 py-4 font-black uppercase tracking-wide text-white shadow-xl shadow-[#F35B15]/20"
+                className="inline-flex items-center justify-center gap-3 rounded-full bg-[#FF9016] px-7 py-4 font-black uppercase tracking-wide text-white shadow-xl shadow-[#F35B15]/20"
               >
                 Explore Events
                 <ArrowRight size={18} />
@@ -98,7 +98,7 @@ export default function Home() {
 
               <a
                 href="/contact"
-                className="inline-flex items-center justify-center rounded-full border border-[#383232]/20 bg-white px-7 py-4 font-bold shadow-sm hover:bg-[#383232] hover:text-white"
+                className="inline-flex items-center justify-center rounded-full border border-[#0C2340]/20 bg-white px-7 py-4 font-bold shadow-sm hover:bg-[#0C2340] hover:text-white"
               >
                 Start Planning
               </a>
@@ -119,8 +119,8 @@ export default function Home() {
                 className="mt-14 h-72 rounded-[2rem] object-cover shadow-xl"
               />
 
-              <div className="col-span-2 rounded-[2rem] bg-[#383232] p-8 text-white shadow-xl">
-                <p className="text-sm font-black uppercase tracking-[0.35em] text-[#F35B15]">
+              <div className="col-span-2 rounded-[2rem] bg-[#0C2340] p-8 text-white shadow-xl">
+                <p className="text-sm font-black uppercase tracking-[0.35em] text-[#FF9016]">
                   Can you feel it?
                 </p>
 
@@ -153,7 +153,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <p className="max-w-md text-[#383232]/65">
+          <p className="max-w-md text-[#0C2340]/65">
             Premium sports travel experiences built around access, atmosphere
             and intelligent planning.
           </p>
@@ -164,7 +164,7 @@ export default function Home() {
             <a
               key={event.title}
               href={event.href}
-              className="group flex h-full flex-col overflow-hidden rounded-[1.75rem] border border-[#383232]/10 bg-white shadow-sm transition hover:-translate-y-2 hover:shadow-2xl"
+              className="group flex h-full flex-col overflow-hidden rounded-[1.75rem] border border-[#0C2340]/10 bg-white shadow-sm transition hover:-translate-y-2 hover:shadow-2xl"
             >
               <div className="relative h-80 overflow-hidden">
                 <img
@@ -173,9 +173,9 @@ export default function Home() {
                   className="h-full w-full object-cover transition duration-700 group-hover:scale-110"
                 />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-[#383232]/88 via-[#383232]/25 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0C2340]/88 via-[#0C2340]/25 to-transparent" />
 
-                <div className="absolute left-5 top-5 rounded-full bg-[#F35B15] px-3 py-1 text-xs font-black uppercase text-white">
+                <div className="absolute left-5 top-5 rounded-full bg-[#FF9016] px-3 py-1 text-xs font-black uppercase text-white">
                   {event.category}
                 </div>
 
@@ -192,7 +192,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-1 flex-col p-5">
-                <p className="text-[#383232]/68">{event.text}</p>
+                <p className="text-[#0C2340]/68">{event.text}</p>
 
                 <span className="mt-auto pt-8 font-black uppercase tracking-wide text-[#F35B15]">
                   View Event →
@@ -209,9 +209,9 @@ export default function Home() {
             {moments.map((moment) => (
               <div
                 key={moment}
-                className="rounded-[1.5rem] border border-[#383232]/10 bg-[#F9F4EE] p-7 shadow-sm"
+                className="rounded-[1.5rem] border border-[#0C2340]/10 bg-[#F9F4EE] p-7 shadow-sm"
               >
-                <Clock className="mb-8 text-[#F35B15]" size={24} />
+                <Clock className="mb-8 text-[#FF9016]" size={24} />
 
                 <p
                   style={headingFont}
