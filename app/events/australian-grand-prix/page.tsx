@@ -111,7 +111,7 @@ export default function AustralianGrandPrixPage() {
       <section className="mx-auto max-w-7xl px-6 pb-24">
         <div className="grid gap-8 md:grid-cols-2">
           <img
-            src="/ausgp.webp"
+            src="/images/australian-grand-prix/melbgpaction.jpg"
             alt="Australian Grand Prix race car"
             className="h-[420px] w-full rounded-[32px] object-cover"
           />
