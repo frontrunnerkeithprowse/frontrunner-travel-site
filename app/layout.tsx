@@ -17,10 +17,10 @@ export default function RootLayout({
           <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
             <a href="/" className="flex items-center gap-3">
               <img
-                src="/frontrunner-logo-stacked.svg"
-                alt="Frontrunner Travel"
-                className="h-14 w-auto"
-              />
+  src="/frontrunnerlogo.png"
+  alt="Frontrunner Travel"
+  className="h-16 w-auto"
+/>
             </a>
 
             <nav className="hidden items-center gap-8 text-sm font-bold text-[#0C2340] md:flex">
